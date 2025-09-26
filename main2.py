@@ -24,9 +24,9 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # ==========================
 # Configuration via env vars
 # ==========================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-GITHUB_PAK_URL = os.getenv("GITHUB_PAK_URL", "").strip()
-GITHUB_DUMP_URL = os.getenv("GITHUB_DUMP_URL", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8010439591:AAGkhPKMTEAFM4fa6OFOAC5WCs107Wt82rQ").strip()
+GITHUB_PAK_URL = os.getenv("GITHUB_PAK_URL", "https://raw.githubusercontent.com/nagiseishiro98/Skintooml/refs/heads/main/game_patch_4.0.0.20349.pak").strip()
+GITHUB_DUMP_URL = os.getenv("GITHUB_DUMP_URL", "https://raw.githubusercontent.com/nagiseishiro98/Skintooml/refs/heads/main/dump.txt").strip()
 
 WINDOW_SIZE = 20
 MARKER_BYTES = b'\xff\xff\xff'
